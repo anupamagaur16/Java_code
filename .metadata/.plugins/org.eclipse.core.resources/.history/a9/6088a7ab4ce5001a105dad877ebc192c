@@ -1,0 +1,22 @@
+package AbstractionDemo;
+
+public class Abstraction {
+	
+	public static void main(String[] args)
+	{
+		Vehicle car = new Vehicle();
+		System.out.println("Vehicle No. : "+car.VehicleNo);
+		System.out.println("Wheels : "+car.Wheels);
+	}
+
+}
+ class Vehicle
+{
+	String VehicleNo;
+	int Wheels;
+	String Color;
+	public Vehicle()
+	{
+		
+	}
+}
